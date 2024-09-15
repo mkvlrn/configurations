@@ -12,18 +12,10 @@
     "custom"
   ],
   "exports": {
-    "./eslint": {
-      "default": "./lib/eslint/index.js",
-      "types": "./lib/eslint/index.d.ts"
-    },
-    "./prettier": {
-      "default": "./lib/prettier/index.js",
-      "types": "./lib/prettier/index.d.ts"
-    },
-    "./tsconfig": {
-      "base": "./lib/tsconfig/base.json",
-      "next": "./lib/tsconfig/next.json"
-    }
+    "./eslint": "./lib/eslint/index.js",
+    "./prettier": "./lib/prettier/index.js",
+    "./tsconfig-base": "./lib/tsconfig/base.json",
+    "./tsconfig-next": "./lib/tsconfig/next.json"
   },
   "files": [
     "lib",

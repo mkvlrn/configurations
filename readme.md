@@ -81,7 +81,7 @@ for base node, nest, or vite/react projects:
 
 ```jsonc
 {
-  "extends": "@mkvlrn/configurations/tsconfig/base",
+  "extends": "@mkvlrn/configurations/tsconfig-base",
   "compilerOptions": {
     // add your custom rules here
     "strict": true,
@@ -94,7 +94,7 @@ for nextjs projects:
 
 ```jsonc
 {
-  "extends": "@mkvlrn/configurations/tsconfig/next",
+  "extends": "@mkvlrn/configurations/tsconfig-next",
   "compilerOptions": {
     // add your custom rules here
     "strict": true,
